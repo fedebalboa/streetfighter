@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'dayposterblackregular';
+    src: url('../fonts/day.eot');
+    src: url('../fonts/day.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/day.woff') format('woff'),
+         url('../fonts/day.ttf') format('truetype'),
+         url('../fonts/day.svg#dayposterblackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background-color: black;
+}
+.messages {
+  position: absolute;
+  left: 660px;
+  width: 600px;
+  font-size: 1.8em;
+  font-family: 'dayposterblackregular';
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+.messages p {
+  width: 290px;
+  display: block;
+  margin-top: 90px;
+  float: left;
+}
+.messages p.rightnote{
+  margin-top: 200px;
+  margin-left: 20px;
+}
+.main {
+  background-color: white;
+  margin-top: 110px;
+  padding-left: 100px;
+  min-width: 1200px;
+  height: 500px;
+}
+.ryu {
+  float: left;
+}
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px;
+  height: 90px;
+  display: none;
+  position: relative;
+  top: 170px;
+  left: -230px;
+  float: left;
+  z-index: 100;
+}
+.hadouken,
+.ryu-ready,
+.ryu-still,
+.ryu-throwing {
+  background-repeat: no-repeat;
+}
+.ryu-cool,
+.ryu-ready,
+.ryu-still,
+.ryu-throwing {
+  width: 659px;
+  height: 494px;
+}
+.ryu-cool,
+.ryu-ready,
+.ryu-throwing {
+  display: none;
+}
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+}
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.text {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  left: 550px;
+  padding-top: 50px;
+}
+.info,
+.info2 {
+  position: absolute;
+  padding-left: 10px;
+  width: 50%;
+  font-size: 28px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.info2 {
+  left: 50%;
+  bottom: 50px;
+}
+
